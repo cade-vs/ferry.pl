@@ -1,7 +1,8 @@
 
 #  ferry.pl -- network file transporter
-#  2010-2018 (c) Vladi Belperchinov-Shabanski "Cade" 
-#  <cade@bis.bg> <cade@cpan.org> <cade@datamax.bg>
+
+    2010-2018 (c) Vladi Belperchinov-Shabanski "Cade" 
+    <cade@bis.bg> <cade@cpan.org> <cade@datamax.bg>
 
 ## INTRODUCTION
 
