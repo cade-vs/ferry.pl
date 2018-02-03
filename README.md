@@ -76,7 +76,8 @@ TARGET_PATH is the actual local directory name to store received files.
 
 * **ferry.pl** push/pull processes can run on the same machine as well.
 
-* **ferry.pl** pozvolqva i SSL vryzki sys sertifikati, check "ferry.pl -h"
+* **ferry.pl** supports SSL connections with optional X509 certificates.
+               (check "ferry.pl -h" for details)
 
 * All transferred files are checked for integrity using SHA1.
   SHA1 is used only for fast integrity verification.
@@ -84,7 +85,7 @@ TARGET_PATH is the actual local directory name to store received files.
 * All passwords are checked with challenge-response scheme and WHIRLPOOL.
 
 * By default, the delay between source files scanning is 5 seconds.
-  To change it use "-l seconds" option, check "ferry.pl -h"
+  To change it use "-l seconds" option (check "ferry.pl -h" for details)
 
 * File compression is possible but still not implemented (TODO).
 
